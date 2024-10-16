@@ -1,9 +1,15 @@
-<h1 mat-dialog-title>Task Details</h1>
-<div mat-dialog-content>
-  <p><strong>Task ID:</strong> {{ data.task.id }}</p>
-  <p><strong>Task Title:</strong> {{ data.task.title }}</p>
-  <p><strong>Status:</strong> {{ data.task.completed ? 'Completed' : 'Pending' }}</p>
-</div>
-<div mat-dialog-actions>
-  <button mat-button (click)="close()" class="btn btn-danger">Close</button>
-</div>
+<h1 mat-dialog-title>
+    Task Details
+    <button mat-icon-button (click)="close()" class="close-button">
+      <mat-icon aria-label="Close dialog">close</mat-icon>
+    </button>
+  </h1>
+  <div mat-dialog-content>
+    <p><strong>Task ID:</strong> {{ data.task.id }}</p>
+    <p><strong>Task Title:</strong> {{ data.task.title }}</p>
+    <p><strong>Status:</strong> {{ data.task.completed ? 'Completed' : 'Pending' }}</p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="close()" class="btn btn-danger bg-danger text-white ">Close</button>
+  </div>
+  
