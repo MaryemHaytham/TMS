@@ -1,0 +1,71 @@
+.task-table-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8f9fa, #f8f9fa);
+    animation: gradientBackground 10s infinite alternate;
+  }
+  
+  .bg-gradient {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    color: white;
+    text-align: center;
+  }
+  
+  .completed {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.1);
+  }
+  
+  @keyframes gradientBackground {
+    0% {
+      background: linear-gradient(135deg, #fc5c7d, #6a82fb);
+    }
+    100% {
+      background: linear-gradient(135deg, #fc466b, #3f5efb);
+    }
+  }
+  
+  button.mat-raised-button {
+    margin-right: 10px;
+  }
+  .header-container {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: #6a82fb22;
+  }
+  
+  .project-title {
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4a4a4a;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+  
+  .project-description {
+    font-size: .9rem;
+    font-weight: 300;
+    max-width: 700px;
+    margin: 10px auto;
+    color: #666;
+  }
+  .bg-gradient-footer {
+    background: linear-gradient(135deg, rgba(45, 85, 252, 0.9), rgba(58, 123, 213, 0.9));
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+ 
